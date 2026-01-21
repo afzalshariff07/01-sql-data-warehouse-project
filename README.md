@@ -145,7 +145,7 @@ This project is **inspired by and based on the SQL Data Warehouse project concep
 
 - Original learning material and datasets were provided as part of a structured educational program
 - This repository represents my **independent implementation**, re-designed, re-written, and documented end-to-end as a **personal portfolio project**
-- All architecture design, SQL scripts, documentation, and repository structure in this project are **created and maintained by me**
+- All architecture design, SQL scripts, documentation, and repository structure in this project are **recreated and maintained by me**
 
 🔗 Credit & Reference:
 
