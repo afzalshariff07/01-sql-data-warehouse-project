@@ -3,7 +3,7 @@
 ## Enterprise SQL Server Data Warehouse with Layered ETL & Analytics
 
 Welcome to the **SQL Data Warehouse Project** repository.  
-This project demonstrates the **design and implementation of an enterprise-grade SQL Server data warehouse**, covering the full lifecycle from raw data ingestion to analytics-ready data models.
+This project demonstrates the **design and implementation of an enterprise-grade SQL Server data warehouse**, covering the full lifecycle from raw data ingestion to analytics-ready dimensional models.
 
 The solution follows **industry best practices** in data engineering, ETL design, and dimensional modeling, and is intended as a **portfolio project showcasing real-world data warehouse architecture**.
 
@@ -102,7 +102,6 @@ These insights support **data-driven decision-making** across business stakehold
 
 ```
 sql-data-warehouse-project/
-data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
@@ -112,7 +111,7 @@ data-warehouse-project/
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
@@ -125,6 +124,7 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
+
 ```
 
 ---
@@ -138,14 +138,36 @@ data-warehouse-project/
 
 ---
 
+## 🙏 Attribution & Credits
+
+This project is **inspired by and based on the SQL Data Warehouse project concept** taught by  
+**Baraa Khatib Salkini** through **Data With Baraa Academy**.
+
+- Original learning material and datasets were provided as part of a structured educational program
+- This repository represents my **independent implementation**, re-designed, re-written, and documented end-to-end as a **personal portfolio project**
+- All architecture design, SQL scripts, documentation, and repository structure in this project are **created and maintained by me**
+
+🔗 Credit & Reference:
+
+- **Instructor:** Baraa Khatib Salkini
+- **Platform:** Data With Baraa Academy
+- **Purpose:** Educational inspiration and real-world data engineering practice
+
+Proper credit is given with respect and gratitude to the original source.
+
+---
+
 ## 👤 About the Author
 
 **Mohammed Afzal Shariff**  
-BI & Analytics Associate Manager | Data Engineering | SQL | Power BI | Databricks
-
+BI & Analytics Associate Manager | Data Engineering | SQL | Power BI | Databricks  
 📍 Bengaluru, India
 
-This project is part of my professional portfolio, showcasing practical experience in designing and delivering enterprise analytics solutions.
+Mohammed Afzal Shariff is a Business Intelligence and Analytics professional with 17+ years of experience designing and delivering enterprise-scale reporting, data warehousing, and analytics solutions.
+
+He specializes in SQL-based data platforms, dimensional modeling, ETL pipeline design, and modern analytics architectures, with a strong focus on building reliable, scalable, and business-ready data solutions that enable informed decision-making.
+
+This project was rebuilt from scratch as part of advanced data engineering practice, inspired by industry-grade training from Data With Baraa Academy.
 
 ---
 
