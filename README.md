@@ -32,38 +32,39 @@ The project is designed using a **Medallion Architecture (Bronze–Silver–Gold
 
 This project covers the following key areas:
 
-1. **Data Architecture Design**  
-   - Modern SQL Server data warehouse using layered architecture  
-   - Clear separation of ingestion, transformation, and analytics layers  
+1. **Data Architecture Design**
+   - Modern SQL Server data warehouse using layered architecture
+   - Clear separation of ingestion, transformation, and analytics layers
 
-2. **ETL Pipelines**  
-   - End-to-end SQL-based ETL workflows  
-   - Data quality handling and transformations  
+2. **ETL Pipelines**
+   - End-to-end SQL-based ETL workflows
+   - Data quality handling and transformations
 
-3. **Data Modeling**  
-   - Fact and dimension table design  
-   - Star schema optimized for analytical workloads  
+3. **Data Modeling**
+   - Fact and dimension table design
+   - Star schema optimized for analytical workloads
 
-4. **Analytics & Reporting**  
-   - SQL-driven business insights  
-   - KPIs and trend analysis for decision support  
+4. **Analytics & Reporting**
+   - SQL-driven business insights
+   - KPIs and trend analysis for decision support
 
 🎯 This repository demonstrates hands-on expertise in:
-- SQL Development  
-- Data Warehousing  
-- Data Engineering  
-- ETL Design  
-- Dimensional Modeling  
-- Business Analytics  
+
+- SQL Development
+- Data Warehousing
+- Data Engineering
+- ETL Design
+- Dimensional Modeling
+- Business Analytics
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **SQL Server** – Data warehouse platform  
-- **SQL Server Management Studio (SSMS)** – Development & administration  
-- **Draw.io** – Architecture, data flow, and data model diagrams  
-- **Git & GitHub** – Version control and project management  
+- **SQL Server** – Data warehouse platform
+- **SQL Server Management Studio (SSMS)** – Development & administration
+- **Draw.io** – Architecture, data flow, and data model diagrams
+- **Git & GitHub** – Version control and project management
 
 ---
 
@@ -75,11 +76,12 @@ This project covers the following key areas:
 Design and build a scalable SQL Server data warehouse to consolidate sales data from multiple source systems for analytics and reporting.
 
 **Key Requirements**
-- Multiple source systems (ERP & CRM)  
-- Data cleansing and quality handling  
-- Unified analytical data model  
-- Latest snapshot reporting (no historization)  
-- Clear documentation for technical and business users  
+
+- Multiple source systems (ERP & CRM)
+- Data cleansing and quality handling
+- Unified analytical data model
+- Latest snapshot reporting (no historization)
+- Clear documentation for technical and business users
 
 ---
 
@@ -88,9 +90,9 @@ Design and build a scalable SQL Server data warehouse to consolidate sales data 
 **Objective**  
 Enable business insights through SQL-based analytics, including:
 
-- Customer behavior analysis  
-- Product performance evaluation  
-- Sales trend analysis  
+- Customer behavior analysis
+- Product performance evaluation
+- Sales trend analysis
 
 These insights support **data-driven decision-making** across business stakeholders.
 
@@ -100,28 +102,30 @@ These insights support **data-driven decision-making** across business stakehold
 
 ```
 sql-data-warehouse-project/
+data-warehouse-project/
 │
-├── datasets/ # Source data (ERP & CRM CSV files)
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/ # Architecture & documentation
-│ ├── data_architecture.drawio
-│ ├── data_flow.drawio
-│ ├── data_models.drawio
-│ ├── data_catalog.md
-│ └── naming_conventions.md
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file shows all different techniques and methods of ETL
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── scripts/ # SQL scripts
-│ ├── bronze/ # Raw data ingestion
-│ ├── silver/ # Data cleansing & transformations
-│ └── gold/ # Analytics-ready models
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/ # Data validation & quality checks
+├── tests/                              # Test scripts and quality files
 │
-├── README.md
-├── LICENSE
-└── .gitignore
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
 ```
-
 
 ---
 
@@ -137,9 +141,9 @@ sql-data-warehouse-project/
 ## 👤 About the Author
 
 **Mohammed Afzal Shariff**  
-BI & Analytics Associate Manager | Data Engineering | SQL | Power BI | Databricks  
+BI & Analytics Associate Manager | Data Engineering | SQL | Power BI | Databricks
 
-📍 Bengaluru, India  
+📍 Bengaluru, India
 
 This project is part of my professional portfolio, showcasing practical experience in designing and delivering enterprise analytics solutions.
 
